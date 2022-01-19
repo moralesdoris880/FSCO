@@ -14,12 +14,52 @@ body{
   display: flex;
 }
 
-#charactersheet{
-  width: 300px;
-  height: 300px;
-  background-color: orange;
-}
+/* ******************* CHAR INFO SHEET COMPONENT ******************* */
 /* Character Sheet 300x300 Resolution / 1:1 Aspect Ratio */
+#charactersheet{
+  width: 250px;
+  height: 280px;
+  background-color: #c3d7c8;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: white;
+  border-width: 7px;
+}
+#innercharactersheet{
+  width: 99%;
+  height: 279px;
+}
+#name{
+  background-color: black;
+  color: white;
+  width: 250px;
+  height: 40px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#statslist{
+  
+}
+
+.statsholder{
+  display: flex;
+  text-align: right;
+}
+
+.stats{
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  font-size: 25px;
+  background-color: black;
+  border-radius: 4px;
+  width: 40%;
+  height: 30px;
+  margin: 0%;
+}
+
 /* ******************* STORE SERVICE COMPONENT ******************* */
 #storeservices{
   width: 600px;
@@ -71,4 +111,5 @@ p{
   padding: 5px;
 }
 
-/* ******************* CHAR INFO SHEET COMPONENT ******************* */
+
+
